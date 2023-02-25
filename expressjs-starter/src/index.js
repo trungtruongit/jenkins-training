@@ -1,5 +1,5 @@
 const app = require('./app');
-
+var b = 7;
 /* istanbul ignore next */
 if (!module.parent) {
   app.listen(3000);
