@@ -4,7 +4,7 @@ const assert = require('chai').assert;
 const superagent = require('superagent');
 
 const app = require('../src/app');
-
+let a = 1;
 //AVS
 describe('app', function () {
 
